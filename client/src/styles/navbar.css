@@ -1,0 +1,31 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 0.9rem;
+    border: 1px solid #ccc;
+    flex: 1;
+    max-width: 500px;
+}
+
+.profile{
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
