@@ -1,0 +1,18 @@
+.project-groups{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.project-group{
+    background-color: #2D1657;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0.9rem;
+    border: 3px solid;
+    flex: 1;
+}

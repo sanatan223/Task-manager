@@ -1,5 +1,5 @@
 import plus from '../assets/plus.svg';
-import '../styles/project-adder.css';
+import '../styles/projectAdder.css';
 
 function ProjectAdder() {
     return (

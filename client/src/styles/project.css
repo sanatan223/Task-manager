@@ -1,0 +1,18 @@
+.project{
+    background-color: #C084FC;
+    color: black;
+    padding: 20px;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+    border-radius: 0.9rem;
+    position: relative;
+}
+
+.project-time{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #555;
+}
