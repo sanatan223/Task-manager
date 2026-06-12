@@ -1,11 +1,12 @@
 import '../styles/project.css';
+import { type Task } from "../../src/types";
 
-function Project(){
+function Project(props: Task) {
     return(
         <div className="project">
-            <div className="text-center font-bold text-lg">Renew Vehicle Registration</div>
-            <div className="font-light">The vehicle registration expires at the end of the month. I need to log into the DMV portal, pay the renewal fee, and update the mailing address on file. Make sure to have the license plate number and the insurance policy card handy before starting the process.</div>
-            <div className="project-time">2 hour ago</div>
+            <div className="text-center font-bold text-lg">{props.title}</div>
+            <div className="font-light">{props.description}</div>
+            <div className="project-time">{props.time}</div>
         </div>
     )
 }
